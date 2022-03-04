@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+/** Fundo da página **/
+body {
+background-image: url(../images/bgdiscord.png);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+background-position: 40%;
+}
+
+/** Caixa principal de conteúdo **/
+.container {
+background-color: #7585c6;
+width: 830px;
+height: 260px;
+text-align: justify;
+border-radius: 5px;
+padding: 30px 60px;
+box-sizing: border-box;
+box-shadow: 3px 3px 30px -25px;
+align-items: center;
+}
+
+/** Fonte principal do título **/
+h2 { 
+font-family: 'Roboto', sans-serif;
+color: #2c2f33;
+font-size: 40px;
+text-align: center;
+word-spacing: 7px;
+margin-top: 150px;
+margin-bottom: 20px;
+}
+
+/** Div para alterar o posicionamento da caixa **/
+section {
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 10px;
+}
